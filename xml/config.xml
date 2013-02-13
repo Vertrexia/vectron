@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+	<shortcuts id="toolBar">
+		<connection id="TOOL_SELECT" name="tool select" keyCode="86"/>
+		<connection id="TOOL_EDIT" name="tool edit" keyCode="69"/>
+		<connection id="TOOL_SPANW" name="tool spawn" keyCode="83"/>
+		<connection id="TOOL_ZONE" name="tool zone" keyCode="90"/>
+		<connection id="TOOL_WALL" name="tool wall" keyCode="87"/>
+	</shortcuts>
+
+	<shortcuts id="toolSelect">
+		<connection id="REMOVE_OBJECTS" name="remove selected objects" keyCode="46"/>
+		<connection id="SELECT_ALL" name="select all" keyCode="65" combo="ctrl"/>
+		<connection id="DESELECT_ALL" name="deselect all" keyCode="68" combo="ctrl"/>
+		<connection id="INVERT_SELECTION" name="invert selection" keyCode="73" combo="ctrl"/>
+	</shortcuts>
+
+	<shortcuts id="main">
+		<connection name="undo" keyCode="90" combo="ctrl"/>
+		<connection name="redo" keyCode="90" combo="ctrl shift"/>
+	</shortcuts>
+-->
+</config>

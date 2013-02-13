@@ -1,0 +1,61 @@
+﻿<flash_project name="0_vectron" version="1">
+    <project_folder name="aaObjects" expanded="true">
+        <project_file path="./Wall.as" filetype="as" />
+        <project_file path="./Spawn.as" filetype="as" />
+        <project_file path="./Zone.as" filetype="as" />
+        <project_file path="./AamapObjectInterface.as" filetype="as" />
+        <project_file path="./AamapObject.as" filetype="as" />
+    </project_folder>
+    <project_folder name="tools" expanded="true">
+        <project_file path="./ToolZone.as" filetype="as" />
+        <project_file path="./ToolInterface.as" filetype="as" />
+        <project_file path="./ToolBase.as" filetype="as" />
+        <project_file path="./ToolSelect.as" filetype="as" />
+        <project_file path="./ToolEdit.as" filetype="as" />
+        <project_file path="./ToolSpawn.as" filetype="as" />
+        <project_file path="./ToolWall.as" filetype="as" />
+    </project_folder>
+    <project_folder name="orfaust" expanded="false">
+        <project_file path="./orfaust/ProgBar.as" filetype="as" />
+        <project_file path="./orfaust/Monitor.as" filetype="as" />
+        <project_file path="./orfaust/SelfInit.as" filetype="as" />
+        <project_file path="./orfaust/containers/LinkedList.as" filetype="as" />
+        <project_file path="./orfaust/Segment.as" filetype="as" />
+        <project_file path="./orfaust/Circle.as" filetype="as" />
+    </project_folder>
+    <project_folder name="actions" expanded="true">
+        <project_file path="./actions/action_SelectObject.as" filetype="as" />
+        <project_file path="./actions/action_DeselectObject.as" filetype="as" />
+        <project_file path="./actions/action_MoveObjectTo.as" filetype="as" />
+        <project_file path="./actions/action_AddObject.as" filetype="as" />
+        <project_file path="./actions/action_RemoveObject.as" filetype="as" />
+    </project_folder>
+    <project_folder name="commands" expanded="true">
+        <project_file path="./commands/command_SelectObject.as" filetype="as" />
+        <project_file path="./commands/command_DeselectObject.as" filetype="as" />
+        <project_file path="./commands/command_MoveObjectTo.as" filetype="as" />
+        <project_file path="./commands/command_RemoveObject.as" filetype="as" />
+        <project_file path="./commands/command_AddObject.as" filetype="as" />
+    </project_folder>
+    <project_folder name="history" expanded="false">
+        <project_file path="./orfaust/history/Action.as" filetype="as" />
+        <project_file path="./orfaust/history/ActionBase.as" filetype="as" />
+        <project_file path="./orfaust/history/Command.as" filetype="as" />
+        <project_file path="./orfaust/history/History.as" filetype="as" />
+        <project_file path="./orfaust/history/ActionsCollector.as" filetype="as" />
+    </project_folder>
+    <project_file path="./root.fla" filetype="fla" profile="" />
+    <project_file path="./Root.as" filetype="as" />
+    <project_file path="./home.fla" filetype="fla" profile="" />
+    <project_file path="./Home.as" filetype="as" />
+    <project_file path="./Base.as" filetype="as" />
+    <project_file path="./Aamap.as" filetype="as" />
+    <project_file path="./Grid.as" filetype="as" />
+    <project_file path="./ToolBar.as" filetype="as" />
+    <project_file path="./UserEvents.as" filetype="as" />
+    <project_file path="./Info.as" filetype="as" />
+    <project_file path="./SelectableArea.as" filetype="as" />
+    <project_file path="./SelectArea.as" filetype="as" />
+    <project_file path="./Config.as" filetype="as" />
+    <project_file path="./KeyboardConnection.as" filetype="as" />
+</flash_project>

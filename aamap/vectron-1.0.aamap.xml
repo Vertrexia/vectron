@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Resource SYSTEM "AATeam/map-0.2.8.0_rc4.dtd">
+<Resource type="aamap" name="vectron" version="1.0" author="hoop" category="vectron">
+  <Map version="2">
+    <World>
+      <Field>
+	  	<Spawn x="-55" y="0" xdir="1" yDir="0"/>
+        <Zone effect="death">
+          <ShapeCircle radius="20">
+            <Point x="100" y="0"/>
+          </ShapeCircle>
+        </Zone>
+        <Wall>
+          <Point x="-170" y="20"/>
+          <Point x="-150" y="-20"/>
+          <Point x="-130" y="20"/>
+        </Wall>
+        <Wall>
+          <Point x="-80" y="20"/>
+          <Point x="-110" y="20"/>
+          <Point x="-120" y="10"/>
+          <Point x="-120" y="-10"/>
+          <Point x="-110" y="-20"/>
+          <Point x="-80" y="-20"/>
+        </Wall>
+        <Wall>
+          <Point x="-120" y="0"/>
+          <Point x="-90" y="0"/>
+        </Wall>
+        <Wall>
+          <Point x="-30" y="10"/>
+          <Point x="-40" y="20"/>
+          <Point x="-60" y="20"/>
+          <Point x="-70" y="10"/>
+          <Point x="-70" y="-10"/>
+          <Point x="-60" y="-20"/>
+          <Point x="-40" y="-20"/>
+          <Point x="-30" y="-10"/>
+        </Wall>
+        <Wall>
+          <Point x="-20" y="20"/>
+          <Point x="20" y="20"/>
+        </Wall>
+        <Wall>
+          <Point x="0" y="20"/>
+          <Point x="0" y="-20"/>
+        </Wall>
+        <Wall>
+          <Point x="130" y="-20"/>
+          <Point x="130" y="20"/>
+          <Point x="170" y="-20"/>
+          <Point x="170" y="20"/>
+        </Wall>
+        <Wall>
+          <Point x="30" y="-20"/>
+          <Point x="30" y="20"/>
+          <Point x="60" y="20"/>
+          <Point x="70" y="10"/>
+          <Point x="70" y="0"/>
+          <Point x="30" y="0"/>
+        </Wall>
+        <Wall>
+          <Point x="50" y="0"/>
+          <Point x="70" y="-20"/>
+        </Wall>
+        <Wall>
+          <Point x="130" y="-60"/>
+          <Point x="130" y="-40"/>
+          <Point x="110" y="-50"/>
+        </Wall>
+        <Wall>
+          <Point x="170" y="-40"/>
+          <Point x="150" y="-40"/>
+          <Point x="150" y="-60"/>
+          <Point x="170" y="-60"/>
+          <Point x="170" y="-40"/>
+        </Wall>
+        <Wall>
+          <Point x="141" y="-60"/>
+          <Point x="139" y="-60"/>
+          <Point x="139" y="-58"/>
+          <Point x="141" y="-58"/>
+          <Point x="141" y="-60"/>
+        </Wall>
+      </Field>
+    </World>
+  </Map>
+</Resource>

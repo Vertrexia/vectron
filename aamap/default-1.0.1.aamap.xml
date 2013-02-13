@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Resource SYSTEM "AATeam/map-0.2.8.0_rc4.dtd">
+<Resource type="aamap" name="default" version="1.0.1" author="Anonymous" category="vectron">
+  <Map version="2">
+    <World>
+      <Field>
+        <Spawn x="5" y="-200" xdir="0" ydir="1"/>
+        <Spawn x="-5" y="200" xdir="0" ydir="-1"/>
+        <Zone effect="fortress">
+          <ShapeCircle radius="50">
+            <Point x="0" y="-180"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="fortress">
+          <ShapeCircle radius="50">
+            <Point x="0" y="180"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="30">
+            <Point x="-140" y="0"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="30">
+            <Point x="-210" y="0"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="30">
+            <Point x="-70" y="0"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="30">
+            <Point x="0" y="0"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="30">
+            <Point x="70" y="0"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="30">
+            <Point x="140" y="0"/>
+          </ShapeCircle>
+        </Zone>
+        <Zone effect="death">
+          <ShapeCircle radius="30">
+            <Point x="210" y="0"/>
+          </ShapeCircle>
+        </Zone>
+        <Wall>
+          <Point x="-250" y="-250"/>
+          <Point x="-250" y="250"/>
+          <Point x="250" y="250"/>
+          <Point x="250" y="-250"/>
+          <Point x="-250" y="-250"/>
+        </Wall>
+      </Field>
+    </World>
+  </Map>
+</Resource>
