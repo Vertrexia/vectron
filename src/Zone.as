@@ -73,6 +73,11 @@ package
 			_radius = Math.sqrt(xDist * xDist + yDist * yDist);
 			render();
 		}
+		
+		public function get effect():String
+		{
+			return _effect;
+		}
 
 		public function get radius():Number
 		{

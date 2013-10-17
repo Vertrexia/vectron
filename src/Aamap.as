@@ -129,6 +129,13 @@ package
 			addChild(obj);
 			obj.addEventListener(MouseEvent.ROLL_OVER,objectRollOver,false,0,true);
 			obj.addEventListener(MouseEvent.ROLL_OUT,objectRollOut,false,0,true);
+			
+			if (obj as Zone)
+				Home.zones[Home.zones.length] = obj;
+			if (obj as Wall)
+				Home.walls[Home.walls.length] = obj;
+			if (obj as Spawn)
+				Home.spawns[Home.spawns.length] = obj;
 		}
 
 		public function removeObject(obj:AamapObject):void
@@ -148,6 +155,61 @@ package
 			obj.removeEventListener(MouseEvent.ROLL_OUT,objectRollOut);
 			removeChild(obj);
 			_objects.remove(obj);
+			
+			var id:Number = 0;
+			if (obj as Wall)
+			{
+				if (Home.walls.length > 0)
+				{
+					for(var iWall:Number = 0; iWall < Home.walls.length; iWall++)
+					{
+						var objWall:Wall = Home.walls[iWall];
+						if ((objWall != null) && (objWall == obj))
+						{
+							id = iWall;
+							break;
+						}
+					}
+					
+					Home.walls.splice(id, 1);
+				}
+			}
+			
+			if (obj as Zone)
+			{
+				if (Home.zones.length > 0)
+				{
+					for(var iZone:Number = 0; iZone < Home.zones.length; iZone++)
+					{
+						var objZone:Zone = Home.zones[iZone];
+						if ((objZone != null) && (objZone == obj))
+						{
+							id = iZone;
+							break;
+						}
+					}
+					
+					Home.zones.splice(id, 1);
+				}
+			}
+			
+			if (obj as Spawn)
+			{
+				if (Home.spawns.length > 0)
+				{
+					for(var iSpawn:Number = 0; iSpawn < Home.spawns.length; iSpawn++)
+					{
+						var objSpawn:Spawn = Home.spawns[iSpawn];
+						if ((objSpawn != null) && (objSpawn == obj))
+						{
+							id = iSpawn;
+							break;
+						}
+					}
+					
+					Home.spawns.splice(id, 1);
+				}
+			}
 		}
 
 		public function get objects():LinkedList

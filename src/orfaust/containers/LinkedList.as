@@ -133,5 +133,17 @@ package orfaust.containers
 				node = node.next;
 			}
 		}
+		
+		public function get getArray():Array
+		{
+			var node = _head;
+			var objArray:Array = new Array();
+			while(node != null)
+			{
+				objArray[objArray.length] = node.data;
+				node = node.next;
+			}
+			return objArray;
+		}
 	}
 }
